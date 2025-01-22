@@ -1,0 +1,49 @@
+/* descendent space  */
+/* section li{   
+   background-color: aqua; 
+}
+
+/* direct child */
+/* section > ol{
+    background-color: red;
+}
+
+/* Adjacent nxt-sibling  (+)*/
+/* p+h6{
+    background-color: bisque;
+} */
+ 
+section{
+    margin: auto;
+}
+
+p{
+    background-color: pink;
+    transition-duration:2s ;
+    transition-property:all ;
+}
+p:hover{
+    background-color: aqua;
+    font-size: 2rem;
+}
+button{
+    background-color: bisque;
+    padding: 0.9rem;
+    border-radius: 3px;
+    border: 2px solid black;
+
+    transition-duration: 1s;
+    transition-property:all ;
+
+}
+
+button:hover{
+    background-color: aqua;
+    cursor: pointer;
+    scale: 1.05;
+}
+button:active{
+    transition-duration:0 ;
+    scale:0.7
+}
+

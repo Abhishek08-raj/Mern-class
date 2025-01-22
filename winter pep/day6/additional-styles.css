@@ -1,0 +1,13 @@
+
+/* Additional global styles */
+body {
+    line-height: 1.6;
+    letter-spacing: 0.5px;
+}
+
+.extra-style {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid gray;
+    background-color: lightblue;
+}
